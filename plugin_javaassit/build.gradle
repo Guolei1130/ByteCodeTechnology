@@ -1,0 +1,35 @@
+apply plugin: 'groovy'
+apply plugin: 'maven'
+
+
+repositories {
+    mavenLocal()
+    jcenter()
+    google()
+}
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation gradleApi()
+    implementation 'org.javassist:javassist:3.24.1-GA'
+    implementation 'com.android.tools.build:gradle:2.3.0'
+    //groovy sdk
+    implementation localGroovy()
+
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
+
+def versionName = "1.0.0"
+group "com.guolei.plugin_javaassit"
+version versionName
+
+uploadArchives { //当前项目可以发布到本地文件夹中
+    repositories {
+        mavenDeployer {
+            repository(url: uri("../repo"))
+        }
+    }
+}
