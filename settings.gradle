@@ -1,1 +1,1 @@
-include ':app', ':plugin_javaassit', ':plugin_asm'
+include ':app', ':plugin_javaassit', ':plugin_asm', ':aspectj'

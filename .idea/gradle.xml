@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/aspectj" />
             <option value="$PROJECT_DIR$/plugin_asm" />
             <option value="$PROJECT_DIR$/plugin_javaassit" />
           </set>
