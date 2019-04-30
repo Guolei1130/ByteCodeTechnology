@@ -6,7 +6,7 @@ Android侧字节码技术。编译时字节码修改以及运行时字节码生�
 
 * javaassit修改字节码
 * asm修改字节码
-* AspectJ apo 技术
+* AspectJ aop 技术
 
 ### javaassit
 
@@ -20,7 +20,15 @@ Android侧字节码技术。编译时字节码修改以及运行时字节码生�
 
 [asm使用指南](https://asm.ow2.io/asm4-guide.pdf)
 
-
 ### AspectJ
+[AspectJ 文档](https://www.eclipse.org/aspectj/doc/released/progguide/index.html)
 
+### 一些应用场景
+技术是需要应用在实践当中的，那么我们可以利用这些字节码技术做哪些事情呢。下面是我所了解的一些场景
+
+* AOP参数校验，
+* AOP打点
+* AOP性能监控
+* 编译时BugFix
+* 编译时检查
 

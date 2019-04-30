@@ -13,7 +13,7 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation gradleApi()
     implementation 'org.javassist:javassist:3.24.1-GA'
-    implementation 'com.android.tools.build:gradle:2.3.0'
+    implementation 'com.android.tools.build:gradle:3.0.0'
     //groovy sdk
     implementation localGroovy()
 
