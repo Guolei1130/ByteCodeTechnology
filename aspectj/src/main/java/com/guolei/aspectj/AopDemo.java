@@ -36,7 +36,7 @@ public class AopDemo {
 
     }
 
-    @Around("onAopMethod")
+    @Around("onAopMethod()")
     public Object methodOnAopMethod(ProceedingJoinPoint proceedingJoinPoint) {
 
         return null;
